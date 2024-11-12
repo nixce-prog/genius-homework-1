@@ -1,0 +1,153 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Cairo Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/cairo-play-v7-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Cairo Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/cairo-play-v7-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Cairo Play';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/cairo-play-v7-latin-800.woff2') format('woff2');
+}
+
+:root {
+    --brand-color: #2B7FFF;
+    --brand-color-black: #011C44;
+}
+
+body {
+    color: var(--brand-color-black);
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-family: 'Cairo Play';
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+.link {
+    font-style: normal;
+    color: var(--brand-color-black);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.link:hover {
+    color: var(--brand-color);
+    font-weight: 700;
+}
+
+.hero-title {
+    text-transform: capitalize;
+    font-size: 140px;
+    color: var(--brand-color);
+    font-family: 'Cairo Play';
+}
+
+.main-button {
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    background-color: var(--brand-color);
+    border: 2px solid var(--brand-color);
+    border-radius: 30px;
+    width: 219px;
+    height: 53px;
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--brand-color-black);
+    border: solid var(--brand-color);
+}
+
+.free-call-button {
+    cursor: pointer;
+    color: white;
+    background-color: var(--brand-color);
+    border: 2px solid var(--brand-color);
+    border-radius: 30px;
+    width: 281px;
+    height: 53px;
+}
+
+.free-consultation {
+    font-size: 12px;
+}
+
+.span-text span {
+    color: var(--brand-color);
+    text-transform: capitalize;
+}
+
+.second-section {
+    color: var(--brand-color-black);
+    font-size: 20px;
+}
+
+.third-section {
+    color: black;
+    font-size: 18px;
+}
+
+.third-section span,
+.fourth-section span,
+.fifth-section .present,
+.fifth-section .how-find {
+    color: var(--brand-color);
+}
+
+.fourth-section li {
+    font-weight: 400;
+    color: white;
+    font-size: 23px;
+}
+
+.fifth-section iframe {
+    border-radius: 35px;
+}
+
+.conf-pol {
+    text-decoration: underline;
+}
+
+.fifth-section p {
+    color: #747272;
+}
